@@ -17,7 +17,11 @@ Sentinel is the industry-standard audit engine for **EU AI Act** compliance. Thi
    - Automate scans in GitHub Actions.
    - Run manual audits via the local CLI.
 
-3. [**API Reference**](https://sentinel-api.sentinel-moxo.workers.dev/health)
+4. [**Professional Licensing**](Licensing)
+   - Choose between Free, Pro, and Enterprise tiers.
+   - Secure your EU AI Act compliance tokens.
+
+5. [**API Reference**](https://sentinel-api.sentinel-moxo.workers.dev/health)
    - Verify service status and connectivity.
 
 ---
