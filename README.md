@@ -53,11 +53,13 @@ When a scan is triggered by a Pull Request, Sentinel automatically posts an audi
 ## 💎 Professional Licensing
 Scale your AI compliance with advanced audit trails and priority support.
 
-| Plan | Price | Features | Checkout |
-| :--- | :--- | :--- | :--- |
-| **Sentinel Free** | $0 | Standard WASM Engine | [Get Started](https://radumuresanu.lemonsqueezy.com/checkout/buy/89ca9ead-179c-497d-b2b7-2a474814ba80) |
-| **Sentinel Pro** | $49/mo | Hardened Audit Trails, Dynamic Badges | [Upgrade to Pro](https://radumuresanu.lemonsqueezy.com/checkout/buy/aefa17e9-7794-44c0-bf3f-65b1a93c5182) |
-| **Sentinel Enterprise** | $299/mo | Full Regulatory Pack, Art. 43 Reports | [Contact Sales](https://radumuresanu.lemonsqueezy.com/checkout/buy/2af0bd06-7319-4390-91d4-397998ab012b) |
+| Plan | Price | Checkout |
+| :--- | :--- | :--- |
+| **Sentinel Developer** | $0 | <a href="https://radumuresanu.lemonsqueezy.com/checkout/buy/89ca9ead-179c-497d-b2b7-2a474814ba80?embed=1" class="lemonsqueezy-button">Buy Sentinel Developer (Free)</a> |
+| **Sentinel PRO** | $49/mo | <a href="https://radumuresanu.lemonsqueezy.com/checkout/buy/aefa17e9-7794-44c0-bf3f-65b1a93c5182?embed=1" class="lemonsqueezy-button">Buy Sentinel Pro</a> |
+| **Sentinel Enterprise** | $299/mo | <a href="https://radumuresanu.lemonsqueezy.com/checkout/buy/2af0bd06-7319-4390-91d4-397998ab012b?embed=1" class="lemonsqueezy-button">Buy Sentinel Enterprise</a> |
+
+<script src="https://assets.lemonsqueezy.com/lemon.js" defer></script>
 
 ---
 [sentinel-ai.dev](https://sentinel-ai.dev)
