@@ -1,24 +1,12 @@
 {
-    "project_name": "sentinel-example-ai-app",
+    "app_name": "sentinel-demo-app",
     "version": "1.0.0",
-    "ai_system": {
-        "type": "Generative AI",
-        "deployment_target": "Public Web App",
-        "intended_use": "Medical diagnosis advice (High Risk Category)",
-        "capabilities": [
-            "Image Processing",
-            "Natural Language Generation"
-        ]
-    },
-    "compliance": {
-        "eu_ai_act_category": "High-Risk",
-        "articles_applicable": [
-            "Article 5",
-            "Article 10",
-            "Article 13",
-            "Article 14"
-        ],
-        "transparency_measures": false,
-        "human_oversight": "manual_review"
-    }
+    "risk_category": "High",
+    "app_description": "Sistem de recrutare bazat pe AI pentru screening CV-uri.",
+    "declared_flags": [
+        "human_oversight_enabled",
+        "bias_assessment_performed",
+        "transparency_disclosure_provided"
+    ],
+    "fallback_ai_verification": false
 }
