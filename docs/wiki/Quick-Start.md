@@ -8,6 +8,11 @@ Get up and running with the most secure EU AI Act compliance engine in under a m
 - A valid `manifest.json` in your project root.
 - A Sentinel License Token (for remote audits).
 
+### 0. Get a Free License Token
+To run remote audits and enable your compliance badge, you need a license token.
+- **Get yours here (Free)**: <a href="https://radumuresanu.lemonsqueezy.com/checkout/buy/c3dd992f-74d8-4d6c-859e-92095a5f171c?embed=1" class="lemonsqueezy-button">Get Free License</a>
+<script src="https://assets.lemonsqueezy.com/lemon.js" defer></script>
+
 ## 🛠️ Installation & First Run
 
 You don't need to install anything globally. Use `npx` to fetch the latest hardened binary:
