@@ -4,12 +4,16 @@ Sentinel is the industry-standard audit engine for **EU AI Act** compliance. Thi
 
 ## 📌 Documentation Index
 
-1. [**Compliance Framework**](Compliance-Framework)
+1. [**Quick Start Guide**](Quick-Start)
+   - Setup Sentinel v1.1.0 in seconds.
+   - Run your first local and remote audit.
+
+2. [**Compliance Framework**](Compliance-Framework)
    - Understand the Risk Categories (Minimal, Limited, High, Unacceptable).
    - Review the mandatory Audit Flags.
    - Troubleshooting common compliance errors.
 
-2. [**Integration Examples**](Integration-Examples)
+3. [**Integration Examples**](Integration-Examples)
    - Automate scans in GitHub Actions.
    - Run manual audits via the local CLI.
 
