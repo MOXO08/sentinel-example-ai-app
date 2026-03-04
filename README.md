@@ -1,6 +1,8 @@
 # 🛡 Sentinel Example AI App
 **Automated EU AI Act Compliance Checking**
 
+[![Sentinel Status](https://sentinel-api.sentinel-moxo.workers.dev/api/v1/badge/sentinel-example-ai-app)](https://sentinel-api.sentinel-moxo.workers.dev/dashboard)
+
 This repository demonstrates the integration of **Sentinel** into a CI/CD workflow for verifying compliance with **EU AI Act** regulations.
 
 ## What is Sentinel?
