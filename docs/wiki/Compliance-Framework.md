@@ -34,5 +34,13 @@ Systems categorized as **High Risk** must declare and verify these 8 core flags:
 * **Meaning**: One or more mandatory flags for the declared Risk Category are missing.
 * **Fix**: Ensure all 8 flags listed above are present in your `declared_flags` array.
 
+## 🔑 License Key Troubleshooting
+
+### "I didn't save my license key from the checkout page"
+If you closed the checkout window before copying your key, don't worry! 
+1. **Check your email**: A confirmation email from Lemon Squeezy was sent to the address used during purchase. It contains your unique `sntl_live_...` key.
+2. **Spam folder**: If you don't see the email, please check your spam or "Promotions" tab.
+3. **Support**: Still can't find it? Contact us at `support@sentinel-moxo.workers.dev` with your order ID or email address.
+
 ---
 [Back to Home](Home)
