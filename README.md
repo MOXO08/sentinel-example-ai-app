@@ -1,48 +1,51 @@
 # 🛡 Sentinel Example AI App
+**Automated EU AI Act Compliance Checking**
 
-Acest repository demonstrează integrarea **Sentinel** în fluxul de CI/CD pentru verificarea conformității cu **EU AI Act**.
+This repository demonstrates the integration of **Sentinel** into a CI/CD workflow for verifying compliance with **EU AI Act** regulations.
 
-## Ce este Sentinel?
-Sentinel este un scanner de conformitate AI offline care verifică manifestele și codul aplicațiilor tale față de reglementările EU AI Act. Acesta asigură că sistemele tale AI respectă cerințele de transparență, securitate și supervizare umană înainte de a fi puse în producție.
+## What is Sentinel?
+Sentinel is an offline AI compliance scanner that verifies your application's manifests and code against the EU AI Act safety standards. It ensures that your AI systems meet transparency, security, and human oversight requirements before deployment.
 
-## Rulare Locală
-Poți rula scanarea local fără a instala nimic permanent:
+## Local Execution
+You can run the scan locally without installing anything permanently:
 
 ```bash
 npx -y @radu_api/sentinel-scan ./manifest.json
 ```
 
-## Integrare CI/CD
-Acest proiect folosește `sentinel-scan-action`. Fluxul de lucru este configurat în [`.github/workflows/sentinel.yml`](./.github/workflows/sentinel.yml).
+## CI/CD Integration
+This project uses `sentinel-scan-action`. The workflow is configured in [`.github/workflows/sentinel.yml`](./.github/workflows/sentinel.yml).
 
-### Cum activezi enforcement-ul (Gating)
-Pentru a bloca automat Pull Request-urile care nu sunt conforme, schimbă setarea `enforce` în `true`:
+### Enable Enforcement (Gating)
+To automatically block non-compliant Pull Requests, set `enforce` to `true` in your workflow:
 
 ```yaml
-      - uses: sentinel-ai/sentinel-scan-action@v1
+      - uses: MOXO08/sentinel-scan-action@v1
         with:
           manifest: "./manifest.json"
-          enforce: "true" # Acum job-ul va eșua la violări
+          enforce: "true" # The job will fail on compliance violations
 ```
 
-## Preview Raport PR
-Când scanarea detectează probleme, Sentinel postează automat un raport în PR:
+## PR Audit Summary
+When a scan is triggered by a Pull Request, Sentinel automatically posts an audit summary as a comment:
 
 > ## 🛡 Sentinel EU AI Act Compliance Scan
 >
-> **Status:** ❌ `NON_COMPLIANT`
+> **App:** `sentinel-demo-app` @ `v1.1.0`
+> **Status:** ✅ `COMPLIANT`
+> **Risk Score:** `0/100`
 >
-> ### Triggered Rules
-> - `ART13-TRANSPARENCY-MISSING`: High-risk systems must implement transparency measures.
-> - `ART10-DATA-GOVERNANCE`: Training data sets must be documented.
->
-> **Compliance Score:** 65%
+> ### 🚩 Triggered Flags / Issues
+> _None_
 >
 > ---
-> _Run locally:_
-> `npx @radu_api/sentinel-scan ./manifest.json`
-> Test PR for Sentinel
+> _Usage in Workflow:_ 
+> ```yaml
+> - uses: radu_api/sentinel-scan-action@v1
+>   with:
+>     manifest: "./manifest.json"
+> ```
+> _Powered by [Sentinel](https://sentinel-ai.dev)_
 
 ---
 [sentinel-ai.dev](https://sentinel-ai.dev)
-
