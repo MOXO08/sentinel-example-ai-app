@@ -4,12 +4,12 @@ Sentinel offers three tiers of licensing to ensure every AI project can meet EU 
 
 ## 🚀 Choose Your Plan
 
-### 1. Sentinel Developer ($0)
+### 1. Sentinel Developer (Free) ($0)
 Standard compliance auditing for developers and open-source projects.
 - **Includes**: Standard WASM Engine, Local Diagnostics, 1-day Audit History.
 - **Get Started**: <a href="https://radumuresanu.lemonsqueezy.com/checkout/buy/c3dd992f-74d8-4d6c-859e-92095a5f171c?embed=1" class="lemonsqueezy-button">Buy Sentinel Developer (Free)</a>
 
-### 2. Sentinel PRO ($49/mo)
+### 2. Sentinel Pro ($49/mo)
 For professional teams requiring persistent records and custom branding.
 - **Includes**: Hardened Audit Trails, Dynamic Compliance Badges, 30-day D1 History, Priority Support.
 - **Upgrade**: <a href="https://radumuresanu.lemonsqueezy.com/checkout/buy/aefa17e9-7794-44c0-bf3f-65b1a93c5182?embed=1" class="lemonsqueezy-button">Buy Sentinel Pro</a>

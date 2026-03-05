@@ -55,8 +55,8 @@ Scale your AI compliance with advanced audit trails and priority support.
 
 | Plan | Price | Checkout |
 | :--- | :--- | :--- |
-| **Sentinel Developer** | $0 | <a href="https://radumuresanu.lemonsqueezy.com/checkout/buy/c3dd992f-74d8-4d6c-859e-92095a5f171c?embed=1" class="lemonsqueezy-button">Buy Sentinel Developer (Free)</a> |
-| **Sentinel PRO** | $49/mo | <a href="https://radumuresanu.lemonsqueezy.com/checkout/buy/aefa17e9-7794-44c0-bf3f-65b1a93c5182?embed=1" class="lemonsqueezy-button">Buy Sentinel Pro</a> |
+| **Sentinel Developer (Free)** | $0 | <a href="https://radumuresanu.lemonsqueezy.com/checkout/buy/c3dd992f-74d8-4d6c-859e-92095a5f171c?embed=1" class="lemonsqueezy-button">Buy Sentinel Developer (Free)</a> |
+| **Sentinel Pro** | $49/mo | <a href="https://radumuresanu.lemonsqueezy.com/checkout/buy/aefa17e9-7794-44c0-bf3f-65b1a93c5182?embed=1" class="lemonsqueezy-button">Buy Sentinel Pro</a> |
 | **Sentinel Enterprise** | $299/mo | <a href="https://radumuresanu.lemonsqueezy.com/checkout/buy/2af0bd06-7319-4390-91d4-397998ab012b?embed=1" class="lemonsqueezy-button">Buy Sentinel Enterprise</a> |
 
 <script src="https://assets.lemonsqueezy.com/lemon.js" defer></script>
