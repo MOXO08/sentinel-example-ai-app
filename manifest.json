@@ -1,17 +1,10 @@
 {
-    "app_name": "sentinel-example-ai-app",
-    "version": "1.1.0",
-    "risk_category": "High",
-    "app_description": "Sistem de recrutare bazat pe AI pentru screening CV-uri cu monitorizare de bias si supraveghere umana.",
-    "declared_flags": [
-        "human_oversight_enabled",
-        "bias_assessment_performed",
-        "transparency_disclosure_provided",
-        "data_governance_policy_documented",
-        "robustness_testing_completed",
-        "cybersecurity_framework_implemented",
-        "risk_management_system_active",
-        "technical_documentation_available"
-    ],
-    "fallback_ai_verification": true
+  "app_name": "sentinel-security-demo",
+  "version": "1.0.0",
+  "risk_category": "Unacceptable",
+  "app_description": "Marketplace SARIF alert demo.",
+  "declared_flags": [
+    "social_scoring"
+  ],
+  "fallback_ai_verification": false
 }
